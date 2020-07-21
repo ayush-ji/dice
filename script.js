@@ -3,7 +3,7 @@ var imgTwo = document.querySelector('#player2 img');
 var result = document.querySelector('#result');
 console.log(imgOne);
 
-var arr = ['/images/dice1.png', '/images/dice2.png', '/images/dice3.png', '/images/dice4.png', '/images/dice5.png', '/images/dice6.png']
+var arr = ['./images/dice1.png', './images/dice2.png', './images/dice3.png', './images/dice4.png', './images/dice5.png', './images/dice6.png']
 
 function game() {
 
@@ -31,49 +31,49 @@ function win() {
     if(imgOne.getAttribute('src') == imgTwo.getAttribute('src')){
         return "tie";
     }
-    else if(imgOne.getAttribute('src') == '/images/dice1.png' && imgTwo.getAttribute('src') == '/images/dice2.png') {
+    else if(imgOne.getAttribute('src') == './images/dice1.png' && imgTwo.getAttribute('src') == './images/dice2.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice1.png' && imgTwo.getAttribute('src') == '/images/dice3.png') {
+    else if(imgOne.getAttribute('src') == './images/dice1.png' && imgTwo.getAttribute('src') == './images/dice3.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice1.png' && imgTwo.getAttribute('src') == '/images/dice4.png') {
+    else if(imgOne.getAttribute('src') == './images/dice1.png' && imgTwo.getAttribute('src') == './images/dice4.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice1.png' && imgTwo.getAttribute('src') == '/images/dice5.png') {
+    else if(imgOne.getAttribute('src') == './images/dice1.png' && imgTwo.getAttribute('src') == './images/dice5.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice1.png' && imgTwo.getAttribute('src') == '/images/dice6.png') {
+    else if(imgOne.getAttribute('src') == './images/dice1.png' && imgTwo.getAttribute('src') == './images/dice6.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice2.png' && imgTwo.getAttribute('src') == '/images/dice3.png') {
+    else if(imgOne.getAttribute('src') == './images/dice2.png' && imgTwo.getAttribute('src') == './images/dice3.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice2.png' && imgTwo.getAttribute('src') == '/images/dice4.png') {
+    else if(imgOne.getAttribute('src') == './images/dice2.png' && imgTwo.getAttribute('src') == './images/dice4.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice2.png' && imgTwo.getAttribute('src') == '/images/dice5.png') {
+    else if(imgOne.getAttribute('src') == './images/dice2.png' && imgTwo.getAttribute('src') == './images/dice5.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice2.png' && imgTwo.getAttribute('src') == '/images/dice6.png') {
+    else if(imgOne.getAttribute('src') == './images/dice2.png' && imgTwo.getAttribute('src') == './images/dice6.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice3.png' && imgTwo.getAttribute('src') == '/images/dice4.png') {
+    else if(imgOne.getAttribute('src') == './images/dice3.png' && imgTwo.getAttribute('src') == './images/dice4.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice3.png' && imgTwo.getAttribute('src') == '/images/dice5.png') {
+    else if(imgOne.getAttribute('src') == './images/dice3.png' && imgTwo.getAttribute('src') == './images/dice5.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice3.png' && imgTwo.getAttribute('src') == '/images/dice6.png') {
+    else if(imgOne.getAttribute('src') == './images/dice3.png' && imgTwo.getAttribute('src') == './images/dice6.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice4.png' && imgTwo.getAttribute('src') == '/images/dice5.png') {
+    else if(imgOne.getAttribute('src') == './images/dice4.png' && imgTwo.getAttribute('src') == './images/dice5.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice4.png' && imgTwo.getAttribute('src') == '/images/dice6.png') {
+    else if(imgOne.getAttribute('src') == './images/dice4.png' && imgTwo.getAttribute('src') == './images/dice6.png') {
         return "p2"
     }
-    else if(imgOne.getAttribute('src') == '/images/dice5.png' && imgTwo.getAttribute('src') == '/images/dice6.png') {
+    else if(imgOne.getAttribute('src') == './images/dice5.png' && imgTwo.getAttribute('src') == './images/dice6.png') {
         return "p2"
     }
     else return "p1"
