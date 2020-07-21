@@ -1,7 +1,6 @@
 var imgOne = document.querySelector('#player1 img');
 var imgTwo = document.querySelector('#player2 img');
 var result = document.querySelector('#result');
-console.log(imgOne);
 
 var arr = ['./images/dice1.png', './images/dice2.png', './images/dice3.png', './images/dice4.png', './images/dice5.png', './images/dice6.png']
 
@@ -78,4 +77,5 @@ function win() {
     }
     else return "p1"
 }
+
 
